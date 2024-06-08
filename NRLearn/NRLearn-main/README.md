@@ -44,7 +44,7 @@
   
 First of all, clone this repository to your local machine and access the main dir via the following command:
 ```
-git clone https://github.com/awsm-research/VQM.git
+git clone https://github.com/Fuzz-TK/NRLearn.git
 cd NRLearn
 ```
 
@@ -455,17 +455,4 @@ cd ../..
  
 
   </details>
-    
-## License 
-<a href="https://github.com/awsm-research/VQM/blob/main/LICENSE">MIT License</a>
 
-## Citation
-```bash
-@article{fu2023vision,
-  title={Vision Transformer-Inspired Automated Vulnerability Repair},
-  author={Fu, Michael and Nguyen, Van and Tantithamthavorn, Chakkrit and Phung, Dinh and Le, Trung},
-  journal={ACM Transactions on Software Engineering and Methodology},
-  year={2023},
-  publisher={ACM New York, NY}
-}
-```
