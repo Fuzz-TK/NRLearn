@@ -5,6 +5,8 @@
 </div>
 Software vulnerabilities refer to security flaws, faults, or weaknesses found in software code, which may lead to serious system crashes or serve as sources of threats for attackers (CSRC, 2020).
 Current automated vulnerability repair methods still need to address the complexity of vulnerability root causes and the issue of noisy datasets. To address these limitations, this paper proposes an NRLearn method with three components: vulnerability mask generate components, vulnerability repair part, and dynamic denoising component. In the Vulnerability Mask Generate Components, the process starts by utilizing the CodeBert model to learn vulnerability labels, followed by using an Adaptive Neuro-Fuzzy Inference System based on fuzzy if-then rules to infer and model Vulnerability Masks. By applying vulnerability masks(VMs) to the self-attention mechanism of the repair encoder, the encoding is focused more on vulnerable areas. Moreover, VMs are also applied in the multi-head attention of the vulnerability repair decoder to reinforce Vulnerability Queries. The encoder in the vulnerability repair component utilizes self-attention layers and feed-forward neural networks to encode the embedded sequence, while the decoder uses Vulnerability Queries to match and capture vulnerability code token information. The dynamic denoising component redefines the training loss by constructing a distribution-aware confidence function, assigning higher weights to clean data, thereby improving the recognition of vulnerable code tokens and enhancing the training efficiency of generating corresponding repair patch pairs.
+
+
 ![NRLearn](NRLearn/model_6_7.png)
 
 <p align="center">
