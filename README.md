@@ -4,7 +4,7 @@
   
 </div>
 
-![NRLearn](img/cover.png)
+![NRLearn](img/model.png)
 
 <p align="center">
   </a>
