@@ -2,7 +2,7 @@
   
 # Automated Vulnerability Repair with Noise-Robust Learning <br> (Reproduction of Experiments)
 
-![NRLearn](NRLearn/model_6_7.png)
+![NRLearn](NRLearn/NRLearn-main/model_6_7.png)
 </div>
 <p align="center">
   </a>
