@@ -1,8 +1,9 @@
-<div style="text-align: center;">
-    <h1>Automated Vulnerability Repair with Noise-Robust Learning <br> (Reproduction of Experiments)</h1>
-    <img src="NRLearn/model_6_7.png" alt="NRLearn Model Image">
-</div>
+<div align="center">
+  
+# Automated Vulnerability Repair with Noise-Robust Learning <br> (Reproduction of Experiments)
 
+![NRLearn](NRLearn/model_6_7.png)
+</div>
 <p align="center">
   </a>
   <h3 align="center">NRLearn</h3>
